@@ -6,15 +6,15 @@
     /* Style the blockquote */
     blockquote {
       /* make the font size large size : 2em */
-      
+      font-size: 3em;
       /* Use a serif font family : Georgia */
-      
+      font-family: Georgia;
       /* Needs some line space use 1.5 */
-      
+      line-height: 1;
       /* Set the color #777 medium gray */
-      
+      color: #777;
       /* Use text-align: right */
-      
+      text-align: right;
     }
 
     /* Style the first letter */
@@ -22,7 +22,7 @@
     letter of the blockaquote */
     blockquote::first-letter {
       /* Set the color #000 */
-      
+      color: #000;
     }
 
     /* Style the author */
@@ -30,12 +30,20 @@
     tags that are inside a blockquote */
     blockquote footer {
       /* Make the font smaller size 0.5em */
-      
+      font-size: 0.5em;
       /* Make the font bold */
-      
+      font-weight: bold;
       /* Change the color #666 */
+      color: rgb(26, 109, 121);
+    }
+
+    body {
+      background-color:  rgb(45, 221, 130);
+      color: rgb(0, 0, 0);
       
     }
+
+  
 
     /* Notice the styles above don't apply to the footer at the 
     the bottom of the page because it is not inside a blockquote. */
@@ -63,7 +71,7 @@
     </footer>
   </blockquote>
   <footer>
-    <small>Copyright 2020</small>
+    <medium>Copyright 2020</medium>
   </footer>
 </body>
 </html>
